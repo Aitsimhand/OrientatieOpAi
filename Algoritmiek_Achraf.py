@@ -100,7 +100,7 @@ def swap(lst, i, j):
     return lst
 
 
-# voert stappen 1,2 en 3 uit. Als er verwisselingen voorkomen geeft het true terug, anders false
+# voert stappen 1,2 en 3 uit. Als er verwisselingen zijn voorgekomen geeft het true terug, anders false
 def swap_to_end(lst):
     swaps_performed = False
     for i in range(len(lst) - 1):
